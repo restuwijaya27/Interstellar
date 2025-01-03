@@ -1,0 +1,41 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Rak {
+  id   String @id @default(cuid())
+  nama String
+  buku Buku[]
+}
+
+model Buku {
+  id       String  @id @default(cuid())
+  nomor    String?
+  nama     String
+  rak      Rak     @relation(references: [id], fields: [idRak], onDelete: Cascade)
+  idRak    String
+  dipinjam Boolean @default(false)
+}
+
+model Peminjaman {
+  id       String  @id @default(cuid())
+  idBuku   String
+  idUser   String
+  waktu    String
+  namaBuku String
+  status   Boolean @default(false)
+}
+
+model Kunjungan {
+  id    String   @id @default(cuid())
+  nama  String
+  waktu DateTime @default(now())
+}
