@@ -13,6 +13,7 @@ Sistem Informasi Perpustakaan berbasis Web sebagai project akhir semester ganjil
 - [NextAuth.js](https://next-auth.js.org)
 - [Prisma](https://prisma.io)
 - [Drizzle](https://orm.drizzle.team)
+- [DaisyUI](https://daisyui.com/)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
