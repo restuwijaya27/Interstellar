@@ -16,6 +16,7 @@ Sistem Informasi Perpustakaan berbasis Web sebagai project akhir semester ganjil
 - [DaisyUi](https://daisyui.com/)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
+- [Clerk](https://dashboard.clerk.com/)
 
 ## Author
 
