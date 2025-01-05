@@ -2,7 +2,7 @@
 
 Sistem Informasi Perpustakaan berbasis Web sebagai project akhir semester ganjil mata kuliah Pemograman Web II
 
-## Kelompok
+## Kelompok Interstellar
 
 - Restu Wijaya (22312024)
 - Raziz Ahmad Arohmani (22312019)
