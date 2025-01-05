@@ -19,4 +19,4 @@ Sistem Informasi Perpustakaan berbasis Web sebagai project akhir semester ganjil
 
 ## Author
 
-- restuwijaya27
+- Restu Wijaya
