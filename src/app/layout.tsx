@@ -8,7 +8,7 @@ import Footer from "~/components/footer";
 import ThemeProvider from "~/components/theme-provider";
 
 export const metadata = {
-  title: "SIP - Interstellar",
+  title: "SIP - Iterstellar",
   description: "Sistem informasi perpustakaan berbasis web",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
